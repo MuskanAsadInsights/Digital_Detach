@@ -44,19 +44,19 @@ Applied 10-Fold Stratified Cross-Validation to ensure demographic-independent st
 4. VALIDATION & REPORTING SUITE
 
 Automated Evaluation Engine:
-Developed src/validate.py to generate all defense-grade evaluation artifacts.
+Developed src/validate.py to generate  evaluation artifacts.
 
 Visual and Statistical Outputs:
 Automated generation of ROC Curves, Confusion Matrices, and Feature Importance visualizations.
 
 PERFORMANCE BENCHMARKS
 
-Metric | Result | Validation Context
+Metric                 | Result | Validation Context
 
-Mean CV Accuracy | 93.00% | 10-Fold Stratified Cross-Validation
+Mean CV Accuracy       | 93.00% | 10-Fold Stratified Cross-Validation
 Hold-out Test Accuracy | 91.00% | Evaluation on unseen data
-AUC-ROC Score | 0.98 | Excellent class separation
-Recall (Severe Class) | 0.93 | High sensitivity for risk detection
+AUC-ROC Score          | 0.98   | Excellent class separation
+Recall (Severe Class)  | 0.93   | High sensitivity for risk detection
 
 REPOSITORY STRUCTURE
 
@@ -81,4 +81,5 @@ A tiered intervention framework providing educational nudges for moderate risk a
 CONCLUSION
 
 Digital Detach V1 delivers a production-ready, statistically validated machine-learning system for smartphone addiction risk classification.
+
 Through 10-Fold Stratified Cross-Validation and a 93% Mean Accuracy, this phase establishes a reliable and defensible foundation for automated extraction and personalized advisory interventions in FYP-2.
